@@ -125,15 +125,6 @@ plt.legend(loc='best')
 
 X.set_index('date', inplace=True)
 
-
-
-
-
-
-
-
-
-
 ### Forecasting ###
 #with the linear regression model
 
@@ -193,19 +184,3 @@ ypred= m.predict(Xtest)
 
 data["predicted bitcoin price"] = ypred
 data.set_index('timestamp', inplace=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
